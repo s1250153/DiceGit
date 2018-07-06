@@ -5,12 +5,12 @@
 int main(){
   int res,x,y;
 
-  /*char name[100];
+  char name[100];
   printf("What is your name?\n");
   printf("> ");
   scanf("%s",name);
   printf("Hello, %s!\n",name);
-*/
+
   srand(time(NULL));
 
   x = rand() % 6 + 1;
